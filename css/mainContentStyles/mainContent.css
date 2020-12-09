@@ -79,3 +79,26 @@ div.mainContent-text {
       position: absolute;
       top: -30px;
       left: 60px; }
+
+/*MAINCONTENT RIGHT*/
+.mainContent-fatherRight {
+  max-width: 298px;
+  float: right;
+  margin-top: 0px;
+  margin-left: 23px; }
+
+.mainContent-data {
+  background-color: #ffffff;
+  padding-top: 25px;
+  padding-left: 33px;
+  padding-right: 27px; }
+  .mainContent-data p {
+    line-height: 20px; }
+  .mainContent-data h3 {
+    margin-bottom: 30px; }
+  .mainContent-data .information-tags {
+    padding-bottom: 50px; }
+  .mainContent-data a {
+    color: black;
+    background-color: #e2e2e2;
+    padding: 10px 11px; }

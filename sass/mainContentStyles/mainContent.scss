@@ -94,3 +94,30 @@ div.mainContent-text{
         }
     }
 }
+/*MAINCONTENT RIGHT*/
+.mainContent-fatherRight{
+    max-width: 298px;
+    float: right;
+    margin-top: 0px;
+    margin-left: 23px;
+}
+.mainContent-data{
+    background-color: #ffffff;
+    padding-top: 25px;
+    padding-left: 33px;
+    padding-right: 27px;
+    p{
+        line-height: 20px;
+    }
+    h3{
+        margin-bottom: 30px;
+    }
+    .information-tags{
+        padding-bottom: 50px;
+    }
+    a{
+        color: black;
+        background-color: #e2e2e2;
+        padding: 10px 11px;
+    }
+}
