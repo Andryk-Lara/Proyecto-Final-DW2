@@ -1,0 +1,96 @@
+/*MAINCONTENT*/
+.mainContent{
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+/*MAINCONTENT LEFT UP*/
+.mainContent-image{
+    position: relative;
+}
+.mainContent-fatherLeft{
+    width: 64.28%;
+    margin-right: 0;
+    padding-right: 0;
+    float: left;
+    div.image{
+        img{
+            width: 97.5%;
+            border: 8px solid #ffffff;
+        }
+    }
+    div.social-media{
+        position: absolute;
+        bottom: 18px;
+        left: 50px;
+        margin-top: 8px;
+    }
+}
+div.mainContent-text{
+    background-color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-left: 38px;
+    padding-right: 72px;
+    padding-bottom: 40px;
+    position: relative;
+    .text-arrow{
+        width: 1px;
+        color: transparent;
+        border-bottom: 15px solid #ffffff;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        position: absolute;
+        left: 55px;
+        top: -30px;
+    }
+    h2{
+        margin-bottom: 12px;
+    }
+    p{
+        line-height: 1.4rem;
+    }
+
+}
+/*MAINCONTEN LEFT DOWN*/
+.mainContent-fatherDown{
+    margin: 0 auto;
+    .mainContent-down-left{
+        width: 44.5%;
+        float: left;
+        margin-left: 10px;
+        img{
+            width: 94%;
+            border: 8px solid #ffffff;
+        }
+    }
+    .mainContent-down-right{
+        width: 44.5%;
+        float: right;
+        margin-right: 10px;
+        img{
+            width: 94%;
+            border: 8px solid #ffffff;
+        }
+    }
+    .mainContent-down-text{
+        margin-top: 8px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 35px;
+        padding-right: 45px;
+        background-color: #ffffff;
+        position: relative;
+        .text-arrow{
+            width: 1px;
+            color: transparent;
+            border-bottom: 15px solid #ffffff;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            position: absolute;
+            top: -30px;
+            left: 60px;
+        }
+    }
+}

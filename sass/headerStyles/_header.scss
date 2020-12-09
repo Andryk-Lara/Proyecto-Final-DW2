@@ -1,0 +1,45 @@
+/*HEADER*/
+$textSize12px: 0.75rem;
+$textSize24px: 1.5rem;
+div.header-father{
+    width: 100%;
+}
+/*HEADER LOGO*/
+div.header-logo{
+    width: 28%;
+    background-color: #f26c4f;
+    margin-top: 0;
+    float: left;
+    padding-top: 0;
+    p{
+        color: #ffffff;
+        font-size: $textSize24px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        a{
+            color: #ffffff;
+            font-size: $textSize24px;
+            padding-left: 45%;
+        }
+    }
+}
+/*HEADER NAV*/
+div.header-nav{
+    width: 72%;
+    background-color: #333331;
+    float: left;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    a{
+        color: #ffffff;
+        font-size: $textSize12px;
+        margin-left: 26px;
+    }
+}
+/*HEADER IMAGE*/
+.header-image{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
