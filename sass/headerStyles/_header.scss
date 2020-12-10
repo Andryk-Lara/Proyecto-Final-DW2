@@ -1,13 +1,12 @@
 /*HEADER*/
-$textSize12px: 0.75rem;
-$textSize24px: 1.5rem;
+@use 'generals';
 div.header-father{
     width: 100%;
 }
 /*HEADER LOGO*/
 div.header-logo{
     width: 28%;
-    background-color: #f26c4f;
+    background-color: $principalColor;
     margin-top: 0;
     float: left;
     padding-top: 0;
@@ -34,6 +33,15 @@ div.header-nav{
         color: #ffffff;
         font-size: $textSize12px;
         margin-left: 26px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+    a:hover{
+        background-color: $principalColor;
+    }
+    a:active{
+        background-color: $secondaryColor;
     }
 }
 /*HEADER IMAGE*/

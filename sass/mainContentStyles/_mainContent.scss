@@ -1,3 +1,4 @@
+@use 'generals';
 /*MAINCONTENT*/
 .mainContent{
     max-width: 980px;
@@ -16,7 +17,7 @@
     div.image{
         img{
             width: 97.5%;
-            border: 8px solid #ffffff;
+            border: 8px solid $colorWhite;
         }
     }
     div.social-media{
@@ -27,7 +28,7 @@
     }
 }
 div.mainContent-text{
-    background-color: #ffffff;
+    background-color: $colorWhite;
     margin-top: 8px;
     margin-bottom: 32px;
     padding-top: 32px;
@@ -38,7 +39,7 @@ div.mainContent-text{
     .text-arrow{
         width: 1px;
         color: transparent;
-        border-bottom: 15px solid #ffffff;
+        border-bottom: 15px solid $colorWhite;
         border-left: 20px solid transparent;
         border-right: 20px solid transparent;
         position: absolute;
@@ -62,7 +63,7 @@ div.mainContent-text{
         margin-left: 10px;
         img{
             width: 94%;
-            border: 8px solid #ffffff;
+            border: 8px solid $colorWhite;
         }
     }
     .mainContent-down-right{
@@ -71,7 +72,7 @@ div.mainContent-text{
         margin-right: 10px;
         img{
             width: 94%;
-            border: 8px solid #ffffff;
+            border: 8px solid $colorWhite;
         }
     }
     .mainContent-down-text{
@@ -80,12 +81,12 @@ div.mainContent-text{
         padding-bottom: 30px;
         padding-left: 35px;
         padding-right: 45px;
-        background-color: #ffffff;
+        background-color: $colorWhite;
         position: relative;
         .text-arrow{
             width: 1px;
             color: transparent;
-            border-bottom: 15px solid #ffffff;
+            border-bottom: 15px solid $colorWhite;
             border-left: 20px solid transparent;
             border-right: 20px solid transparent;
             position: absolute;
@@ -96,7 +97,7 @@ div.mainContent-text{
 }
 /*MAINCONTENT RIGHT*/
 .mainContent-fatherRight{
-    max-width: 298px;
+    width: 30%;
     float: right;
     margin-top: 0px;
     margin-left: 23px;
@@ -122,7 +123,7 @@ div.mainContent-text{
     }
 }
 .mainContent-data{
-    background-color: #ffffff;
+    background-color: $colorWhite;
     padding-top: 25px;
     padding-left: 33px;
     padding-right: 27px;
@@ -134,10 +135,17 @@ div.mainContent-text{
     }
     .information-tags{
         padding-bottom: 50px;
+        a{
+            color: black;
+            line-height: 2.8rem;
+            background-color: #e2e2e2;
+            padding: 10px 11px;
+        }
+        a:hover{
+            background-color: #9c9c9c;
+        }
     }
-    a{
-        color: black;
-        background-color: #e2e2e2;
-        padding: 10px 11px;
-    }
+}
+.information-image{
+    width: 100%;
 }
